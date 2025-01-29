@@ -1,0 +1,34 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env/
+.venv/
+ENV/
+object
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+*.mp4
+*.pt          # YOLO weight files
+output_video_*.mp4    # Output videos
+video_detections_*.txt    # Detection result files
+
+# System
+.DS_Store
+Thumbs.db
